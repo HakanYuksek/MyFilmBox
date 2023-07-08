@@ -1,0 +1,19 @@
+.loginBox{
+	background-color:#4e8bd1;
+	width:380px;
+	height:300px;
+	margin-top:5%;
+	margin-left:36%;
+}
+.registerBox{
+	background-color:#4e8bd1;
+	width:380px;
+	height:450px;
+	margin-top:5%;
+	margin-left:36%;
+}
+.marginLeft{
+	margin-left:2%;
+	text-align:center;
+	width:95%;
+}

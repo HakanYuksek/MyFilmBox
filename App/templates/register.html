@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	   <title>WorldOfMovies</title>
+	
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="/static/css/login/login.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <a class="navbar-brand" href="/">WorldOfMovies</a>
+		</div>
+		<ul class="nav navbar-nav">
+		  <li class="active"><a href="/">Home</a></li>
+		  <li><a href="/general_recommendation">Recommendation Page</a></li>
+		  <li><a href="/about">About</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+		  <li><a href="/sign_up"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		  <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		</ul>
+	  </div>
+	</nav>
+	<div class="container-fluid mt-8">
+	
+		<div class="registerBox" style="background-color:4e8bd1;">
+			 	<div class="btn-group-vertical">
+			<form class="marginLeft" action="/register" method="post">
+				<h3 style="color:white;">Sign Up!</h3>
+				<hr/>
+				  <div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+					<input id="username" type="text" class="form-control" name="username" placeholder="Username">
+				  </div>
+				  <br/>
+				  <div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+					<input id="email" type="text" class="form-control" name="email" placeholder="E-Mail">
+				  </div>
+				  <br/>
+				  <div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+				  </div>
+				  <br/>
+				  <div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					<input id="rePassword" type="password" class="form-control" name="rePassword" placeholder="Re-Password">
+				  </div>
+				  <br/>
+						<br/>
+						<button type="submit" class="btn btn-success btn-block">Sign Up</button>
+						<br/>
+					  <a href="/login"><button type="button" class="btn btn-danger btn-block">I have already an account</button></a>
+					</div>
+			</form>
+
+		</div>
+		
+    </div>
+	<div class="container-fluid mt-8" style="text-align:center;">
+		<h1>This is just an Inception</h1>
+		<h2>Hurry Up!</h2>
+		<a href="#"onclick="show()"><h3>Start the Adventure From Here...</h3></a>
+	</div>
+
+</body>
+
+
+<script>
+
+	function show(){
+		alert("Visit The Following Web Site");
+		alert("https://www.imdb.com/title/tt1375666/");
+		alert("Don't Forget to Turn Back to Us");
+		alert("May We Meet Again...");
+	}
+
+</script>
+
+
+</html>

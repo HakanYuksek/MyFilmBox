@@ -1,0 +1,28 @@
+Film tavsiye sistemi yapýlabilir
+Kullanýcý izlemek istediði türü seçer
+En sevdiði filmleri girer, bu tür altýndaki
+Daha sonra makine öðrenmesi algoritmasý kullanýlarak kullanýcýya 10 farklý film önerilir
+Ardýndan bu filmler ile ilgili bilgiler kullanýcýya sunulur
+Web uygulamasý þeklinde yapýlabilir
+
+
+Bu sistemi gerçekleþtirmek için sýrasýyla:
+Literatür taramasý
+SRS belgesi
+SDD dökümaný
+Programýn gerçekleþtirilmesi
+Test Ýþlemleri
+
+Yapýlacaktýr
+
+
+-----------------------------------------------------------------------------------------
+
+Web uygulamasý þeklinde yapýlacaktýr
+Sistemden yararlanabilmek için kullanýcýlarýn üye olmasýna gerek yoktur
+Kullanýcý üye olursa kendi favori filmlerini bir listeye kaydedebilir, izlemeyi düþündüðü filmleri de bir liste içerisine
+alabilir, izledim þeklinde iþaretlediðinde o listeden silinir, daha sonrasýnda favorilerine ekleyebilir
+Filmlere puan verme hakký kullanýcýlarda olabilir
+Ara yüz sade, basit ve kullanýþlý olmalýdýr
+Kullanýcýdan hangi inputlar alýnacaðýna karar verilmelidir
+Hangi algoritma kullanýcýlaðýna karar verilmelidir

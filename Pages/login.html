@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	   <title>WorldOfMovies</title>
+	
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="login.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	
+</head>
+
+<body style="background-color:#c4f3e7;">
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <a class="navbar-brand" href="HomePage.html">WorldOfMovies</a>
+		</div>
+		<ul class="nav navbar-nav">
+		  <li class="active"><a href="#">Home</a></li>
+		  <li><a href="#">Recommendation Page</a></li>
+		  <li><a href="#">About</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+		  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		  <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+		</ul>
+	  </div>
+	</nav>
+	<div class="container-fluid mt-8" style="background-image:url('5.jpg');">
+	
+		<div class="loginBox">
+			 	<div class="btn-group-vertical">
+			<form class="marginLeft">
+				<h3 style="color:white;">Login</h3>
+				<hr/>
+				  <div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+					<input id="email" type="text" class="form-control" name="Username" placeholder="Username">
+				  </div>
+				  <br/>
+				  <div class="input-group">
+					<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+					<input id="password" type="password" class="form-control" name="password" placeholder="Password">
+				  </div>
+						<br/>
+						<button type="button" class="btn btn-success btn-block">Login</button>
+						<br/>
+					  <button type="button" class="btn btn-danger btn-block">I have already an account</button>
+					</div>
+			</form>
+
+		</div>
+		
+    </div>
+	<div class="container-fluid mt-8" style="text-align:center;">
+		<h1>This is just an Inception</h1>
+		<h2>Hurry Up!</h2>
+		<a href="#"onclick="show()"><h3>Start the Adventure From Here...</h3></a>
+	</div>
+
+</body>
+
+
+<script>
+
+	function show(){
+		alert("Visit The Following Web Site");
+		alert("https://www.imdb.com/title/tt1375666/");
+		alert("Don't Forget to Turn Back to Us");
+		alert("May We Meet Again...");
+	}
+
+</script>
+
+
+</html>

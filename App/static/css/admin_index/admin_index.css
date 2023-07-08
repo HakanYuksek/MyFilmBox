@@ -1,0 +1,23 @@
+h1 {
+        border: 3px solid #4CAF50;
+        font-family: lucida sans unicode, lucida grande, sans-serif;
+        margin-bottom: 45px;
+        padding-left: 0px;
+}
+
+p.cl2 {
+
+        font-family: lucida sans unicode, lucida grande, sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+        margin-bottom: 60px;
+
+
+
+}
+
+.add-border {
+
+        border: 3px solid #4CAF50;
+        border-radius: 5px;
+}
